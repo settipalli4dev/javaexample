@@ -21,8 +21,11 @@ public class EmployeeController {
 	@PostMapping("/employee/create")
 	public ResponseEntity<Test> createEmployee(@RequestBody Test emp) {
 
+		System.out.println("Request ::::" +emp);
+
 		Test response = employeeRepository.save(emp);
-		System.out.println("Response ::::" +response)
+
+		System.out.println("Response ::::" +response);
 
 		return new ResponseEntity<Test>(response, HttpStatus.OK);
 	}
