@@ -22,6 +22,7 @@ public class EmployeeController {
 	public ResponseEntity<Test> createEmployee(@RequestBody Test emp) {
 
 		Test response = employeeRepository.save(emp);
+		System.out.println("Response ::::" +response)
 
 		return new ResponseEntity<Test>(response, HttpStatus.OK);
 	}

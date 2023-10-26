@@ -9,7 +9,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.h2.api</groupId>
-	<artifactId>h2-database-api</artifactId>
+	<artifactId>javaexample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>h2-database-api</name>
 	<description>Demo project for Spring Boot</description>
